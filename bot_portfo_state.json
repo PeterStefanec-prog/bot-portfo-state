@@ -1,0 +1,215 @@
+{
+  "last_updated": "2026-05-12T20:30:00Z",
+  "version": 1,
+  "equity_history": [
+    {"date": "2026-05-12", "equity_usd": 9910.90, "drawdown_pct": 0.89, "note": "Initial portfolio opened. Equity reflects 1h after open with small negative PnL."}
+  ],
+  "positions": [
+    {
+      "ticker": "NVDA",
+      "instrumentId": 1137,
+      "positionId": 3440200101,
+      "opened_date": "2026-05-12",
+      "opened_price": 217.90,
+      "amount_usd": 900.0,
+      "tier": "DEFAULT",
+      "is_hedge": false,
+      "thesis": "AI semis king. $725B hyperscaler 2026 capex strong, no signs of demand softening. Q1 FY27 earnings May 20 expected blowout — single biggest catalyst in tape.",
+      "macro_tailwind": "AI capex supercycle continues; HBM supply pre-committed through 2027",
+      "expected_catalyst": "Q1 FY27 earnings — expected beat on data center revenue and Blackwell ramp",
+      "catalyst_date": "2026-05-20",
+      "history": [
+        "2026-05-12: Opened at $217.90 as default tier AI semi exposure. Earnings May 20 is binary catalyst."
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "instrumentId": 1832,
+      "positionId": 3440200171,
+      "opened_date": "2026-05-12",
+      "opened_price": 443.37,
+      "amount_usd": 900.0,
+      "tier": "DEFAULT",
+      "is_hedge": false,
+      "thesis": "AI semis. Q1'26 blowout just reported (May 5): Data Center +57% to $5.8B, Q2 guide $11.2B (+46% YoY). MI450 ramp expected 2H26 underappreciated. Clean post-earnings window.",
+      "macro_tailwind": "AI capex supercycle, share gains in inference workloads",
+      "expected_catalyst": "Q2 earnings ~late July (no near-term binary)",
+      "catalyst_date": "2026-07-29",
+      "history": [
+        "2026-05-12: Opened at $443.37 as default tier AI semi. Just reported clean Q1, hold through MI450 ramp."
+      ]
+    },
+    {
+      "ticker": "MU",
+      "instrumentId": 1130,
+      "positionId": 3440200205,
+      "opened_date": "2026-05-12",
+      "opened_price": 747.38,
+      "amount_usd": 900.0,
+      "tier": "DEFAULT",
+      "is_hedge": false,
+      "thesis": "AI memory/HBM cycle. +91% 3M momentum, +228% 6M, +768% 1Y. HBM supply constrained through 2027, pricing power. Pure-play on AI memory demand.",
+      "macro_tailwind": "HBM shortage, multi-quarter pricing cycle, AI training memory demand",
+      "expected_catalyst": "Q4 earnings ~late June (FY26 ending August)",
+      "catalyst_date": "2026-06-25",
+      "history": [
+        "2026-05-12: Opened at $747.38. Memory cycle pricing thesis multi-quarter."
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "instrumentId": 4236,
+      "positionId": 3440200280,
+      "opened_date": "2026-05-12",
+      "opened_price": 418.80,
+      "amount_usd": 900.0,
+      "tier": "DEFAULT",
+      "is_hedge": false,
+      "thesis": "AI custom chips. $73B AI backlog, OpenAI partnership, Q1 AI semis +106%. Clean window — Q2 earnings June 3.",
+      "macro_tailwind": "Hyperscaler custom silicon trend (TPU-equivalent for OpenAI, Meta, Google)",
+      "expected_catalyst": "Q2 earnings — expected to raise AI guidance",
+      "catalyst_date": "2026-06-03",
+      "history": [
+        "2026-05-12: Opened at $418.80. Clean earnings window, AI backlog accelerating."
+      ]
+    },
+    {
+      "ticker": "VRT",
+      "instrumentId": 8867,
+      "positionId": 3440200330,
+      "opened_date": "2026-05-12",
+      "opened_price": 353.80,
+      "amount_usd": 900.0,
+      "tier": "DEFAULT",
+      "is_hedge": false,
+      "thesis": "AI data center power/cooling pure-play. $9.5B backlog, +30% Q1 revenue, only pure-play covering UPS + liquid cooling for AI racks. 100K-GPU clusters force liquid-to-chip cooling adoption.",
+      "macro_tailwind": "AI infra capex digestion — power and cooling are bottleneck, not chips",
+      "expected_catalyst": "Q2 earnings late July, continued backlog growth",
+      "catalyst_date": "2026-07-23",
+      "history": [
+        "2026-05-12: Opened at $353.80. Strong momentum (+55% 3M), AI infra pure-play."
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "instrumentId": 6434,
+      "positionId": 3440200440,
+      "opened_date": "2026-05-12",
+      "opened_price": 387.37,
+      "amount_usd": 900.0,
+      "tier": "DEFAULT",
+      "is_hedge": false,
+      "thesis": "Mega-cap tech. Cloud +63% reaccelerating, Q1 beat on every line. AI Overviews driving search engagement. DOJ antitrust overhang already priced in.",
+      "macro_tailwind": "AI/cloud secular growth, secular winner",
+      "expected_catalyst": "Secular thesis, no near-term binary catalyst",
+      "catalyst_date": null,
+      "history": [
+        "2026-05-12: Opened at $387.37 as mega-cap tech exposure. Cloud reaccel underway."
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "instrumentId": 1005,
+      "positionId": 3440200489,
+      "opened_date": "2026-05-12",
+      "opened_price": 264.95,
+      "amount_usd": 900.0,
+      "tier": "DEFAULT",
+      "is_hedge": false,
+      "thesis": "Mega-cap tech. AWS +28% best in 15 quarters, Q1 EPS $2.78 vs $1.64 est. Retail margin expansion. Capex spook already digested.",
+      "macro_tailwind": "AWS reaccel + retail operating leverage",
+      "expected_catalyst": "Q2 earnings ~late July",
+      "catalyst_date": "2026-07-31",
+      "history": [
+        "2026-05-12: Opened at $264.95. AWS reaccel thesis."
+      ]
+    },
+    {
+      "ticker": "CRWD",
+      "instrumentId": 5506,
+      "positionId": 3440200565,
+      "opened_date": "2026-05-12",
+      "opened_price": 545.99,
+      "amount_usd": 900.0,
+      "tier": "DEFAULT",
+      "is_hedge": false,
+      "thesis": "Cybersec compounder. ARR growth reaccelerated to 73% YoY, Falcon Flex +200%, vendor consolidation tailwind. Post-July'24 outage overhang fading.",
+      "macro_tailwind": "Cybersec spend resilient through cycles, vendor consolidation favors leaders",
+      "expected_catalyst": "Q1 FY27 earnings",
+      "catalyst_date": "2026-06-04",
+      "history": [
+        "2026-05-12: Opened at $545.99. Cybersec sector diversifier."
+      ]
+    },
+    {
+      "ticker": "CCJ",
+      "instrumentId": 6634,
+      "positionId": 3440200683,
+      "opened_date": "2026-05-12",
+      "opened_price": 114.77,
+      "amount_usd": 900.0,
+      "tier": "DEFAULT",
+      "is_hedge": true,
+      "thesis": "Uranium renaissance hedge against AI semi concentration. Western contracting cycle re-opens 2027 with Cameco contracts rolling off. India $2.6B supply deal locked. Scotiabank PT $175. Long-term structural thesis — multi-year reset, no specific near-term catalyst.",
+      "macro_tailwind": "AI hyperscaler nuclear power demand; uranium supply deficit by 2030",
+      "expected_catalyst": "Contracting cycle inflection summer 2026 onwards (long-term, no specific date)",
+      "catalyst_date": null,
+      "history": [
+        "2026-05-12: Opened at $114.77 as uranium hedge. Long-term structural thesis, expect to hold through multiple runs."
+      ]
+    },
+    {
+      "ticker": "NEM",
+      "instrumentId": 1757,
+      "positionId": 3440200731,
+      "opened_date": "2026-05-12",
+      "opened_price": 117.67,
+      "amount_usd": 900.0,
+      "tier": "DEFAULT",
+      "is_hedge": true,
+      "thesis": "Gold safe-haven hedge. Gold realized prices $4,861/oz in Q1 (+68% YoY). Iran-Hormuz crisis premium. Mining equities still lag spot — 'great golden disconnect'. JPM gold target $5,055 Q4.",
+      "macro_tailwind": "Geopolitical risk premium (Iran, Russia/Ukraine), Fed pivot risk, central bank gold buying",
+      "expected_catalyst": "Continued FCF generation + buybacks; gold price gains if Middle East persists (long-term)",
+      "catalyst_date": null,
+      "history": [
+        "2026-05-12: Opened at $117.67 as gold hedge. Geopolitical hedge against tech concentration."
+      ]
+    }
+  ],
+  "closed_in_last_30d": [
+    {
+      "ticker": "AAPL",
+      "instrumentId": 1001,
+      "closed_date": "2026-05-12",
+      "opened_date": "2026-05-12",
+      "opened_price": 294.41,
+      "close_price": 294.39,
+      "pnl_pct": -0.01,
+      "amount_usd": 100,
+      "reason": "test-trade closeout",
+      "notes": "Test position to verify API key works. Closed before main portfolio build to reuse cash."
+    }
+  ],
+  "strategy_notes": [
+    "2026-05-12T14:42 UTC: Initial portfolio created with 10 positions × $900 each (~9% weight), $988 cash buffer. All DEFAULT tier initially.",
+    "2026-05-12T16:19 UTC: Switched to AGGRESSIVE preset (12% default / 20% high-conviction tier, -12% stop-loss, allow small/mid caps, allow pre-revenue with <30d catalyst).",
+    "2026-05-12T18:16 UTC: Smart Trading Rules added — patience with existing positions + aggression on opportunities. Profit-take rule at +20%. Quality dip-buy mandate.",
+    "2026-05-12T20:15 UTC: Persistent thesis log mechanism enabled — state file in this repo. Pre-seeded with initial 10 positions."
+  ],
+  "config": {
+    "preset": "AGGRESSIVE",
+    "max_position_default_pct": 12,
+    "max_position_high_conviction_pct": 20,
+    "max_high_conviction_count": 2,
+    "max_high_conviction_total_pct": 35,
+    "min_position_pct": 5,
+    "cash_buffer_target_pct": [5, 10],
+    "position_count_range": [5, 12],
+    "stop_loss_pct": -12,
+    "profit_take_threshold_pct": 20,
+    "earnings_filter_days": 5,
+    "max_trades_per_run": 6,
+    "drawdown_alert_threshold_pct": -15,
+    "user_email": "peter.stefanec10@gmail.com"
+  }
+}
