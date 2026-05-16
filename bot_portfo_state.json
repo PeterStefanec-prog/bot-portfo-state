@@ -1,9 +1,10 @@
 {
-  "last_updated": "2026-05-13T20:35:00Z",
-  "version": 2,
+  "last_updated": "2026-05-16T12:55:00Z",
+  "version": 3,
   "equity_history": [
-    {"date": "2026-05-12", "equity_usd": 9910.90, "drawdown_pct": 0.89, "note": "Day 1 — initial portfolio opened at 14:42 UTC."},
-    {"date": "2026-05-13", "equity_usd": 10214.34, "drawdown_pct": -2.14, "note": "Day 2 — pre-trade equity. Strong overnight gains. Executed CCJ→OXY rotation."}
+    {"date": "2026-05-12", "equity_usd": 9910.90, "drawdown_pct": 0.89, "note": "Day 1 — initial 10 positions opened."},
+    {"date": "2026-05-13", "equity_usd": 10214.34, "drawdown_pct": -2.14, "note": "Day 2 — strong overnight gains. Executed CCJ→OXY rotation."},
+    {"date": "2026-05-16", "equity_usd": 10105.88, "drawdown_pct": -1.06, "note": "Day 5 — CPI/PPI shock Friday May 15 hit risk assets. Bonds routed (10Y to 4.60%). Equity gave back some gains. Opened DELL for May 28 catalyst."}
   ],
   "positions": [
     {
@@ -12,16 +13,19 @@
       "positionId": 3440200101,
       "opened_date": "2026-05-12",
       "opened_price": 217.90,
+      "current_price": 225.53,
       "amount_usd": 900.0,
+      "current_pnl_pct": 3.50,
       "tier": "DEFAULT",
       "is_hedge": false,
-      "thesis": "AI semis king. $725B hyperscaler 2026 capex strong, no signs of demand softening. Q1 FY27 earnings May 20 expected blowout — single biggest catalyst in tape.",
-      "macro_tailwind": "AI capex supercycle continues; HBM supply pre-committed through 2027",
-      "expected_catalyst": "Q1 FY27 earnings — expected beat on data center revenue and Blackwell ramp",
+      "thesis": "AI semis king. $725B hyperscaler 2026 capex. Q1 FY27 earnings May 20 expected blowout. Goldman bullish, Wall St whisper $80-81B (consensus $78.8B).",
+      "macro_tailwind": "AI capex supercycle; HBM constrained through 2027",
+      "expected_catalyst": "Q1 FY27 earnings — beat-and-raise expected",
       "catalyst_date": "2026-05-20",
       "history": [
-        "2026-05-12: Opened at $217.90 as default tier AI semi exposure.",
-        "2026-05-13: HOLD. +$36.26 (+4.0%) day 2. Earnings May 20 (7 days) — within filter window starting May 15, cannot add."
+        "2026-05-12: Opened at $217.90 as DEFAULT tier AI semi anchor.",
+        "2026-05-13: HOLD. +$36.26 (+4.0%) day 2. No add (earnings filter approaching).",
+        "2026-05-16: TIGHT-HOLD. +$31.51 (+3.5%). Earnings May 20 = 4 days away (inside 5-day filter — cannot add). Goldman PT raised. Smart money (Bridgewater) ADDED. Setup for beat-and-raise but binary risk."
       ]
     },
     {
@@ -30,16 +34,19 @@
       "positionId": 3440200171,
       "opened_date": "2026-05-12",
       "opened_price": 443.37,
+      "current_price": 424.36,
       "amount_usd": 900.0,
+      "current_pnl_pct": -4.29,
       "tier": "DEFAULT",
       "is_hedge": false,
-      "thesis": "AI semis. Q1'26 blowout (May 5): Data Center +57%, Q2 guide $11.2B (+46% YoY). MI450 ramp 2H26 underappreciated.",
-      "macro_tailwind": "AI capex supercycle, share gains in inference",
-      "expected_catalyst": "Q2 earnings ~late July",
+      "thesis": "AI semis, Q1 blowout May 5, MI450 2H26 ramp underappreciated.",
+      "macro_tailwind": "AI capex supercycle",
+      "expected_catalyst": "Q2 earnings ~late July; sympathy on NVDA May 20",
       "catalyst_date": "2026-07-29",
       "history": [
         "2026-05-12: Opened at $443.37.",
-        "2026-05-13: HOLD. +$3.45 (+0.4%). No new triggers."
+        "2026-05-13: HOLD +$3.45.",
+        "2026-05-16: HOLD. -$38.59 (-4.29%). Down on tape, valuation digestion at 42x fwd. BofA raised PT $500. No trigger to close (stop -12% far away). NVDA sympathy May 20."
       ]
     },
     {
@@ -48,16 +55,19 @@
       "positionId": 3440200205,
       "opened_date": "2026-05-12",
       "opened_price": 747.38,
+      "current_price": 725.60,
       "amount_usd": 900.0,
+      "current_pnl_pct": -2.91,
       "tier": "DEFAULT",
       "is_hedge": false,
-      "thesis": "AI memory/HBM cycle. +91% 3M momentum, supply constrained through 2027.",
-      "macro_tailwind": "HBM shortage, AI training memory demand",
-      "expected_catalyst": "Q4 earnings ~late June (FY26 ending August)",
+      "thesis": "AI memory/HBM cycle. Tepper tripled position Q1 13F. Deutsche Bank Street-high $1000 PT. Q4 earnings ~June 24.",
+      "macro_tailwind": "HBM shortage, AI training memory",
+      "expected_catalyst": "Q3 FY26 earnings ~late June",
       "catalyst_date": "2026-06-24",
       "history": [
         "2026-05-12: Opened at $747.38.",
-        "2026-05-13: HOLD. +$63.37 (+7.0%) — top performer day 2. Tepper levered into memory per 13F (smart-money confirmation)."
+        "2026-05-13: HOLD +$63.37 (+7.0%) — top performer day 2.",
+        "2026-05-16: HOLD. -$26.23 (-2.91%). Pulled back with semis. Tepper 13F confirms thesis (tripled position). Deutsche Bank $1000 PT. Hold for June 24 earnings."
       ]
     },
     {
@@ -66,16 +76,19 @@
       "positionId": 3440200280,
       "opened_date": "2026-05-12",
       "opened_price": 418.80,
+      "current_price": 425.32,
       "amount_usd": 900.0,
+      "current_pnl_pct": 1.56,
       "tier": "DEFAULT",
       "is_hedge": false,
-      "thesis": "AI custom chips. $73B AI backlog, OpenAI partnership. Q2 earnings June 3 clean window.",
+      "thesis": "AI custom chips. $73B AI backlog. $35B AI credit deal news. Druckenmiller NEW Q1 13F.",
       "macro_tailwind": "Hyperscaler custom silicon trend",
-      "expected_catalyst": "Q2 earnings",
+      "expected_catalyst": "Q2 earnings June 3 (clean window)",
       "catalyst_date": "2026-06-03",
       "history": [
         "2026-05-12: Opened at $418.80.",
-        "2026-05-13: HOLD. -$3.44 (-0.4%) slight pullback, no concern."
+        "2026-05-13: HOLD -$3.44.",
+        "2026-05-16: HOLD. +$14.01 (+1.56%). Wells Fargo PT to $545. Druckenmiller NEW position Q1 13F. Strong setup for June 3."
       ]
     },
     {
@@ -84,16 +97,19 @@
       "positionId": 3440200330,
       "opened_date": "2026-05-12",
       "opened_price": 353.80,
+      "current_price": 370.68,
       "amount_usd": 900.0,
+      "current_pnl_pct": 4.77,
       "tier": "DEFAULT",
       "is_hedge": false,
-      "thesis": "AI data center power/cooling pure-play. Q1 backlog DOUBLED to $15B+. Liquid-to-chip cooling adoption forced by 100K-GPU clusters.",
-      "macro_tailwind": "AI infra capex — power/cooling is bottleneck, not chips",
-      "expected_catalyst": "Q2 earnings late July; ADD candidate on pullback <$320",
+      "thesis": "AI data center power/cooling pure-play. $15B backlog (doubled in Q1). Evercore PT $425, Citi $414. Hut 8 deal, Strategic Thermal Labs acquisition.",
+      "macro_tailwind": "AI infra capex — power/cooling bottleneck",
+      "expected_catalyst": "Q2 earnings late July; ADD candidate <$320",
       "catalyst_date": "2026-07-23",
       "history": [
         "2026-05-12: Opened at $353.80.",
-        "2026-05-13: HOLD. +$41.21 (+4.6%) — strong performer day 2. Q1 backlog doubled news confirmed thesis."
+        "2026-05-13: HOLD +$41.21.",
+        "2026-05-16: HOLD. +$42.94 (+4.77%). Strongest fundamentals (backlog +doubled). High beta to NVDA May 20."
       ]
     },
     {
@@ -102,16 +118,19 @@
       "positionId": 3440200440,
       "opened_date": "2026-05-12",
       "opened_price": 387.37,
+      "current_price": 396.81,
       "amount_usd": 900.0,
+      "current_pnl_pct": 2.44,
       "tier": "DEFAULT",
       "is_hedge": false,
-      "thesis": "Mega-cap tech. Cloud +63% reaccelerating, AI Overviews driving search engagement.",
+      "thesis": "Mega-cap tech. Cloud +63% reaccel. Buffett 225% added Q1 13F. Google I/O May 19 catalyst.",
       "macro_tailwind": "AI/cloud secular growth",
-      "expected_catalyst": "I/O developer conference soon; secular",
-      "catalyst_date": null,
+      "expected_catalyst": "Google I/O May 19 (Gemini 4.0 expected)",
+      "catalyst_date": "2026-05-19",
       "history": [
         "2026-05-12: Opened at $387.37.",
-        "2026-05-13: HOLD. +$35.04 (+3.9%) — strong day 2."
+        "2026-05-13: HOLD +$35.04.",
+        "2026-05-16: HOLD. +$21.93 (+2.44%). Buffett 225% add Q1 13F is huge signal (contra Ackman/Druckenmiller exits). Google I/O May 19 = near-term catalyst."
       ]
     },
     {
@@ -120,16 +139,19 @@
       "positionId": 3440200489,
       "opened_date": "2026-05-12",
       "opened_price": 264.95,
+      "current_price": 264.21,
       "amount_usd": 900.0,
+      "current_pnl_pct": -0.28,
       "tier": "DEFAULT",
       "is_hedge": false,
-      "thesis": "Mega-cap tech. AWS +28% best in 15 quarters. Retail margin expansion.",
+      "thesis": "Mega-cap tech. AWS +28% best in 15 quarters. Mixed smart money: Berkshire exited, Druckenmiller dumped 99%, BUT Ackman bought 1.84M, Bridgewater added.",
       "macro_tailwind": "AWS reaccel + retail leverage",
       "expected_catalyst": "Q2 earnings ~late July",
       "catalyst_date": "2026-07-31",
       "history": [
         "2026-05-12: Opened at $264.95.",
-        "2026-05-13: HOLD. +$16.51 (+1.8%). Bezos delegation rumor for Trump-Xi summit May 14-15."
+        "2026-05-13: HOLD +$16.51.",
+        "2026-05-16: HOLD. -$2.51 (-0.28%) essentially flat. SMART MONEY DIVIDED on AMZN (Berkshire exit + Druckenmiller dump vs Ackman + Bridgewater add). No trigger, hold. Monitor for guidance updates."
       ]
     },
     {
@@ -138,16 +160,19 @@
       "positionId": 3440200565,
       "opened_date": "2026-05-12",
       "opened_price": 545.99,
+      "current_price": 594.45,
       "amount_usd": 900.0,
+      "current_pnl_pct": 8.88,
       "tier": "DEFAULT",
       "is_hedge": false,
-      "thesis": "Cybersec compounder. ARR +73% accel. Vendor consolidation tailwind.",
-      "macro_tailwind": "Cybersec spend resilient, vendor consolidation favors leaders",
-      "expected_catalyst": "Q1 FY27 earnings (revised June 9)",
+      "thesis": "Cybersec compounder. ARR +73% accel. RBC PT $650, BTIG $621.",
+      "macro_tailwind": "Cybersec spend resilient, vendor consolidation",
+      "expected_catalyst": "Q1 FY27 earnings June 9",
       "catalyst_date": "2026-06-09",
       "history": [
         "2026-05-12: Opened at $545.99.",
-        "2026-05-13: HOLD. +$28.04 (+3.1%). Earnings date revised to June 9."
+        "2026-05-13: HOLD +$28.04.",
+        "2026-05-16: HOLD. +$79.88 (+8.88%) — BEST performer day 5. Approaching +20% profit-take threshold (need +11% more). RBC + BTIG PT raises confirm. Hold for June 9 earnings; consider partial profit-take if hits +15-20% pre-earnings."
       ]
     },
     {
@@ -156,46 +181,70 @@
       "positionId": 3440200731,
       "opened_date": "2026-05-12",
       "opened_price": 117.67,
+      "current_price": 109.03,
       "amount_usd": 900.0,
+      "current_pnl_pct": -7.34,
       "tier": "DEFAULT",
       "is_hedge": true,
-      "thesis": "Gold safe-haven hedge. Gold $4,861/oz Q1 (+68% YoY). Iran-Hormuz premium. Hot CPI (April +0.6% MoM) strengthens stagflation hedge thesis.",
-      "macro_tailwind": "Geopolitical risk + Fed pivot risk + stagflation post hot CPI",
+      "thesis": "Gold safe-haven hedge. Hot CPI = stagflation hedge thesis strengthened. $6B buyback approved. Dividend ex-date May 27. Approaching -8% concern.",
+      "macro_tailwind": "Geopolitical + Fed pivot risk + stagflation",
       "expected_catalyst": "Long-term, no specific near-term",
       "catalyst_date": null,
       "history": [
         "2026-05-12: Opened at $117.67 as gold hedge.",
-        "2026-05-13: HOLD. +$3.37 (+0.4%). Hot CPI shock STRENGTHENS thesis (stagflation hedge)."
+        "2026-05-13: HOLD +$3.37.",
+        "2026-05-16: TIGHT-HOLD. -$66.08 (-7.34%) — worst performer. Gold fell from $4861 to $4540 (silver -7% Friday). Position near stop-loss-watch zone (-8%). But: hedge role, ex-div May 27, buyback approved. STAY but monitor — if hits -10%, reconsider."
       ]
     },
     {
       "ticker": "OXY",
       "instrumentId": 4257,
-      "positionId": "TBD",
+      "positionId": 3442587958,
       "opened_date": "2026-05-13",
       "opened_price": 56.18,
+      "current_price": 59.66,
       "amount_usd": 987.08,
+      "current_pnl_pct": 6.19,
       "tier": "DEFAULT",
       "is_hedge": false,
-      "thesis": "Energy/oil — Iran-Hormuz crisis premium + hot CPI rotation away from long-duration tech. Highest-beta US large-cap to Brent crude. Berkshire CVX 7.2% confirms energy weight. OPEC+ Vienna June 7 dated catalyst (25 days). Druckenmiller XLF rotation aligns. Replaces CCJ as commodity hedge with stronger near-term catalyst.",
-      "macro_tailwind": "Iran/Hormuz premium, OPEC+ supply discipline, post-CPI reflation rotation",
-      "expected_catalyst": "OPEC+ Vienna meeting — July quota decisions",
+      "thesis": "Energy/oil. Iran-Hormuz premium. Brent $107+. OPEC+ Vienna June 7 catalyst. UAE EXITED OPEC (wild card). CEO change June 1 (Vicki Hollub → Richard Jackson).",
+      "macro_tailwind": "Iran/Hormuz + reflation post-CPI shock",
+      "expected_catalyst": "OPEC+ Vienna meeting",
       "catalyst_date": "2026-06-07",
       "history": [
-        "2026-05-13: Opened at $56.18 (after-hours fill, amount $987.08 — eToro auto-reduced from $1200 target due to insufficient cash before CCJ close fills). Reason: SWAP from CCJ to capture energy momentum + OPEC+ catalyst. 1M momentum technically negative (-7.76%) so opened DEFAULT tier (not HC) per strict rules — but weekly +5.37% suggests bottom is in."
+        "2026-05-13: Opened at $56.18 ($987.08 — auto-reduced from $1200 target due to insufficient cash before CCJ close fills). DEFAULT tier (1M momentum negative -7.76%).",
+        "2026-05-16: HOLD. +$61.14 (+6.19%). Iran/CPI thesis playing out. UAE OPEC exit + CEO change June 1 = NEW WILD CARDS. Trailing stop near $57.50 recommended."
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "instrumentId": 4261,
+      "positionId": "TBD",
+      "opened_date": "2026-05-16",
+      "opened_price": null,
+      "current_price": 241.99,
+      "amount_usd": 895.0,
+      "current_pnl_pct": null,
+      "tier": "DEFAULT",
+      "is_hedge": false,
+      "thesis": "AI server hardware. $43B AI server backlog into Q1 FY27. Guided EPS $2.90 (+87% YoY). Sovereign + neocloud + enterprise pipeline. Q1 FY27 earnings May 28 — biggest near-term catalyst after NVDA. 3M momentum +106.65%, 1M +15.81% (both positive — HC eligible but cash-constrained to DEFAULT sizing). Weekly -7.09% pullback = buy point.",
+      "macro_tailwind": "AI server demand acceleration; smart money (Druckenmiller AVGO, Bridgewater MRVL) confirms AI infra trade",
+      "expected_catalyst": "Q1 FY27 earnings May 28 AMC",
+      "catalyst_date": "2026-05-28",
+      "history": [
+        "2026-05-16T12:53 UTC: Order submitted (orderID 1466016969, statusID 1, queued for Monday May 18 open). Amount $895, queued at Friday close ~$241.99. Setup HC-eligible (both momentum positive + dated catalyst <2w + macro tailwind) but sized at DEFAULT $895 due to cash constraint ($900 cash). Replaces CCJ as 11th position."
       ]
     }
   ],
   "pending_actions": [
     {
-      "ticker": "CCJ",
-      "action": "CLOSE",
-      "positionID": 3440200683,
-      "orderID": 1463137154,
-      "submitted_at": "2026-05-13T20:33:29Z",
+      "ticker": "DELL",
+      "action": "OPEN",
+      "orderID": 1466016969,
+      "amount_usd": 895,
+      "submitted_at": "2026-05-16T12:52:53Z",
       "status": "queued_for_market_open",
-      "reason": "Specific negative news: Saskatchewan flooding May 11 halted Key Lake mill (McArthur River ore can only be processed there). Cigar Lake unaffected, 2026 plan unchanged for now — but flooding overhang is exactly what Smart Trading Rules call 'thesis explicitly invalidated by SPECIFIC negative news'. Swap to OXY captures energy momentum + OPEC+ June 7 catalyst with more conviction.",
-      "expected_fill": "2026-05-13T13:30:00Z (US market open)"
+      "expected_fill": "2026-05-18T13:30:00Z (Monday US open)"
     }
   ],
   "closed_in_last_30d": [
@@ -209,16 +258,28 @@
       "pnl_pct": -0.01,
       "amount_usd": 100,
       "reason": "test-trade closeout",
-      "notes": "Test position to verify API key works."
+      "notes": "Test position to verify API key."
+    },
+    {
+      "ticker": "CCJ",
+      "instrumentId": 6634,
+      "closed_date": "2026-05-13",
+      "opened_date": "2026-05-12",
+      "opened_price": 114.77,
+      "close_price": null,
+      "pnl_pct": null,
+      "amount_usd": 900,
+      "reason": "thesis-invalidated (flooding) — swap to OXY",
+      "notes": "Saskatchewan flooding May 11 halted Key Lake mill (McArthur River ore processed there). Followup research May 16 noted Cigar Lake operating, no guidance cut — close was correct trigger per rules but magnitude of damage was less than feared. Swapped to OXY for energy momentum + OPEC+ June 7 catalyst."
     }
   ],
   "strategy_notes": [
-    "2026-05-12T14:42 UTC: Initial portfolio created — 10 positions × $900 + $988 cash. AGGRESSIVE preset.",
-    "2026-05-12T16:19 UTC: Aggressive preset active.",
-    "2026-05-12T18:16 UTC: Smart Trading Rules + thesis log enabled.",
-    "2026-05-13T20:30 UTC: Hot April CPI (+0.6% MoM) — market regime shift. Cloud routine ran but eToro API blocked by sandbox + git push blocked. Local execution from claude-code via local Claude API connectivity. Executed CCJ→OXY rotation per agent recommendation.",
-    "2026-05-13T20:33 UTC: CCJ close submitted (positionID 3440200683, orderID 1463137154, queued for market open). OXY opened (orderID 1463091267, filled $987.08 @ $56.18). OXY at DEFAULT tier despite agent's HC recommendation due to 1M momentum -7.76% (fails strict HC condition).",
-    "ARCHITECTURE NOTE: Anthropic cloud routine sandbox blocks public-api.etoro.com and git push. Workflow pivoted to local Claude Code execution. Tomorrow: set up local launchd cron for true automation."
+    "2026-05-12T14:42 UTC: Initial portfolio.",
+    "2026-05-12T16:19 UTC: AGGRESSIVE preset.",
+    "2026-05-12T18:16 UTC: Smart Trading Rules + thesis log.",
+    "2026-05-13T20:33 UTC: CCJ→OXY rotation (Saskatchewan flooding trigger).",
+    "2026-05-16T12:55 UTC: Day 5 review — major macro regime shift. Hot CPI/PPI shock May 12-13. 10Y yield to 4.60% (2007 highs). Trump-Xi summit underwhelming. 13F filings: Tepper tripled MU, Druckenmiller NEW AVGO, Buffett 225% added GOOGL, Berkshire EXITED AMZN, Ackman new MSFT $2B+. Opened DELL $895 for May 28 earnings catalyst.",
+    "FEE RULES added 2026-05-16: $1 flat per trade, $2 round-trip, MIN position $700, MIN expected move 0.5%, MAX 4 trades/day, prefer multi-day holds (overnight FREE)."
   ],
   "config": {
     "preset": "AGGRESSIVE",
@@ -227,12 +288,19 @@
     "max_high_conviction_count": 2,
     "max_high_conviction_total_pct": 35,
     "min_position_pct": 5,
+    "min_position_usd": 700,
     "cash_buffer_target_pct": [5, 10],
     "position_count_range": [5, 12],
     "stop_loss_pct": -12,
     "profit_take_threshold_pct": 20,
     "earnings_filter_days": 5,
     "max_trades_per_run": 6,
-    "drawdown_alert_threshold_pct": -15
+    "max_trades_per_day_recommended": 2,
+    "max_trades_per_day_cap": 4,
+    "drawdown_alert_threshold_pct": -15,
+    "fee_per_trade_usd": 1,
+    "fee_round_trip_usd": 2,
+    "min_expected_move_pct_to_enter": 0.5,
+    "min_swap_improvement_pct": 20
   }
 }
